@@ -13,10 +13,10 @@ pipeline {
                 }
             }
         }
-        stage("build jar"){
+        stage("build app"){
             steps {
                 script {
-                    gv.buildJar()
+                    gv.buildApp()
                 }
             }
         }
